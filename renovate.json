@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "allowCustomCrateRegistries": true,
+  "allowedPostUpgradeCommands": ["some-command"],
+  "binarySource": "docker",
+  "cacheTtlOverride": {
+    "string": 1
+  }
+}
