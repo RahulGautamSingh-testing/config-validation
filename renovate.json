@@ -5,5 +5,12 @@
   "binarySource": "docker",
   "cacheTtlOverride": {
     "string": 1
-  }
+  },
+  "hostRules": [
+    {
+      "encrypted": {
+        "token": "helloagain"
+      }
+    }
+  ]
 }
